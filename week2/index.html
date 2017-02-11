@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html  lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <title>Custom Filters</title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller="myCtrl">
+<div>Custom Filter sample</div>
+<div>{{msg}}</div>
+<div>{{lovesmsg}}</div>
+<div>{{msg|custom:'Like':'Love'|uppercase}}</div>
+</body>
+
+
+</html>
